@@ -1,0 +1,17 @@
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+.identity {
+  width: 70%;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logobundle {
+  display: flex;
+  justify-content: center;
+}
