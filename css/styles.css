@@ -1,9 +1,12 @@
 .photo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  padding: 20px;
 }
 .identity {
-  width: 70%;
+  width: 60%;
+  padding: 20px;
 }
 
 .Copyright {

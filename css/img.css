@@ -7,4 +7,13 @@
   width: 50px;
   height: auto;
   padding: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+}
+.logo:hover {
+  transition-duration: 0.6s;
+  transform: scale(1.2);
+  opacity: 1;
 }
