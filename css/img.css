@@ -10,7 +10,7 @@
   cursor: pointer;
   border-radius: 12px;
   cursor: pointer;
-  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 .logo:hover {
   transition-duration: 0.6s;
