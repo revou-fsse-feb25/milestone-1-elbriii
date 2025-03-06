@@ -1,5 +1,5 @@
 .profile {
-  width: 250px;
+  width: 400px;
   height: auto;
 }
 
@@ -16,4 +16,8 @@
   transition-duration: 0.6s;
   transform: scale(1.2);
   opacity: 1;
+}
+.picture-projek-1 {
+  width: 480px;
+  height: 400px;
 }

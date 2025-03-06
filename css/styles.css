@@ -1,12 +1,84 @@
+.roles-container {
+  border-radius: 18px;
+  height: 120px;
+  width: fit-content;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 130px;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  box-sizing: content-box;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+
+.judul {
+  margin-left: 40px;
+  font-size: 70px;
+}
+
+.role {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  animation: role-change 8s infinite;
+  padding-bottom: 90px;
+}
+
+@keyframes role-change {
+  10% {
+    transform: translateY(-5%);
+  }
+  20% {
+    transform: translateY(-105%);
+  }
+  30% {
+    transform: translateY(-205%);
+  }
+  40% {
+    transform: translateY(-305%);
+  }
+  50% {
+    transform: translateY(-405%);
+  }
+  62% {
+    transform: translateY(-505%);
+  }
+  74% {
+    transform: translateY(-605%);
+  }
+  84% {
+    transform: translateY(-705%);
+  }
+  94% {
+    transform: translateY(-805%);
+  }
+
+  100% {
+    transform: translateY(-815%);
+  }
+}
+
+.background-text {
+  font-size: 50px;
+  margin-block-end: auto;
+  margin-block-start: auto;
+}
+
+.identity {
+  font-size: 20px;
+  width: 400px;
+  justify-content: space-around;
+}
+
 .photo {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row-reverse;
-  padding: 20px;
-}
-.identity {
-  width: 60%;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .Copyright {
@@ -17,4 +89,20 @@
 .logobundle {
   display: flex;
   justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.creation {
+  font-size: 50px;
+  text-align: justify;
+  margin-block-end: auto;
+}
+
+.creation-text {
+  display: flex;
 }
