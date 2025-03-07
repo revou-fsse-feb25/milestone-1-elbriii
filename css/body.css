@@ -9,11 +9,12 @@ body {
   font-weight: 600;
   color: #eddcf5;
   text-shadow: 10px 9px 10px rgba(0, 0, 0, 0.6);
-  background: rgb(3, 1, 48);
+  background: rgb(5, 4, 9);
   background: linear-gradient(
-    170deg,
-    rgba(3, 1, 48, 1) 22%,
-    rgba(194, 0, 244, 1) 100%
+    180deg,
+    rgba(5, 4, 9, 1) 9%,
+    rgba(74, 5, 120, 1) 54%,
+    rgba(23, 1, 35, 1) 95%
   );
 }
 
