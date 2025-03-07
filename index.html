@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="css\styles.css" />
     <link rel="stylesheet" href="css\body.css" />
     <link rel="stylesheet" href="css\grid.css" />
+    <link rel="stylesheet" href="css\form.css" />
+    <link rel="stylesheet" href="css\nav.css" />
+    <link rel="stylesheet" href="css\responsive.css" />
   </head>
   <body>
     <header>
+      <nav class="nav-bar">
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
       <div class="roles-container">
         <span class="role">Hello</span>
         <span class="role">Bonjour</span>
@@ -23,9 +36,7 @@
         <span class="role">Hello</span>
       </div>
       <h1 class="judul">Welcome to my website!</h1>
-    </header>
-    <main>
-      <section class="photo">
+      <section class="photo" id="profile">
         <div class="perkenalan">
           <h2 class="background-text">Profile</h2>
           <p class="identity">
@@ -46,7 +57,7 @@
       </section>
       <br />
       <br />
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2 class="creation">Creation Projects</h2>
         <p class="creation-text">
           I’m thrilled to share some of the personal projects I’ve poured my
@@ -66,18 +77,19 @@
         <div class="div1">
           <p>
             <a
+              class="project-text"
               href="https://revou-fundamental-course.github.io/20-jan-25-elbriii/"
               target="_blank"
               >Bmi Calculator</a
             >
           </p>
         </div>
-        <div class="div2">2</div>
-        <div class="div3">3</div>
+        <div class="div2"><p class="project-text">Future project</p></div>
+        <div class="div3"><p class="project-text">Future project</p></div>
       </div>
 
-      <form>
-        <h2>Contact Me</h2>
+      <form id="contact">
+        <h2 class="contact">Contact Me</h2>
         <div class="form-group">
           <label for="Name">Your Name</label>
           <input type="text" id="Name" />

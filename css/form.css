@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+input[type="email"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+input[type="tel"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+button {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px;
+  transition-duration: 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 7px 11px 17px 5px rgba(40, 0, 46, 0.817);
+}

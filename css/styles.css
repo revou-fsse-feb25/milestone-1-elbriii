@@ -18,6 +18,7 @@
 .judul {
   margin-left: 40px;
   font-size: 70px;
+  margin-bottom: 300px;
 }
 
 .role {
@@ -66,12 +67,16 @@
   font-size: 50px;
   margin-block-end: auto;
   margin-block-start: auto;
+  animation: text-move both;
+  animation-timeline: view(70% 5%);
 }
 
 .identity {
   font-size: 20px;
   width: 400px;
   justify-content: space-around;
+  animation: text-move both;
+  animation-timeline: view(70% 5%);
 }
 
 .photo {
@@ -96,6 +101,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  animation: text-move both;
+  animation-timeline: view(70% 5%);
 }
 .creation {
   font-size: 50px;
@@ -105,4 +112,29 @@
 
 .creation-text {
   display: flex;
+  width: 90%;
+}
+
+.project-text {
+  color: rgb(10, 0, 28);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  font-size: 50px;
+  animation: text-move both;
+  animation-timeline: view(70% 5%);
+}
+
+@keyframes text-move {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
