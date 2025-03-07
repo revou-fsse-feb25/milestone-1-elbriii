@@ -15,7 +15,7 @@ Welcome everyone, I'm Samuel Brian. In this website, you will see my personal br
 - HTML
 - CSS
 
-## How to open
+## How to open :
 
 To open this page, click the link down below:
 
@@ -32,6 +32,7 @@ and then simply add to github
 ## Live Demo
 
 You can see the Live demo below :
+
 ![Ilustration of the website](./assets/Livedemo.png)
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zOa-lK1T)
