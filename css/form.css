@@ -48,7 +48,7 @@ button {
   border: none;
   outline: none;
   color: #fff;
-  background: #111;
+  background: #620282;
   cursor: pointer;
   position: relative;
   border-radius: 10px;
@@ -57,5 +57,5 @@ button {
 }
 button:hover {
   transform: scale(1.1);
-  box-shadow: 7px 11px 17px 5px rgba(40, 0, 46, 0.817);
+  box-shadow: 7px 11px 11px 5px rgba(6, 0, 7, 0.817);
 }

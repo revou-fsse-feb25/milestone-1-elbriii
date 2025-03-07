@@ -52,3 +52,14 @@
     }
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 60px;
+    margin: 150px;
+  }
+}
